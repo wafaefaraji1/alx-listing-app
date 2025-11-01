@@ -1,10 +1,9 @@
 import React from 'react';
-import Card from '../components/common/Card';
-import Button from '../components/common/Button';
+import Card from '../components/Card';
+import Button from '../components/Button';
 import { Property } from '../interfaces';
 
 const Home: React.FC = () => {
-  // Sample data for demonstration
   const sampleProperty: Property = {
     id: '1',
     title: 'Beautiful Beach House',
@@ -37,7 +36,8 @@ const Home: React.FC = () => {
         </header>
 
         <div className="flex flex-col items-center space-y-8">
-          {/* Demo Card Component */}
+
+          {/* Featured Property Card */}
           <section className="w-full max-w-md">
             <h2 className="text-2xl font-semibold mb-4 text-center">Featured Property</h2>
             <Card
@@ -51,7 +51,7 @@ const Home: React.FC = () => {
             />
           </section>
 
-          {/* Demo Button Variants */}
+          {/* Buttons Showcase */}
           <section className="text-center">
             <h2 className="text-2xl font-semibold mb-4">Button Components</h2>
             <div className="flex flex-wrap justify-center gap-4">
@@ -80,35 +80,18 @@ const Home: React.FC = () => {
               This ALX Listing App has been successfully scaffolded with:
             </p>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-left mb-4">
-              <li className="flex items-center">
-                <span className="text-green-500 mr-2">✓</span>
-                Next.js with TypeScript
-              </li>
-              <li className="flex items-center">
-                <span className="text-green-500 mr-2">✓</span>
-                Tailwind CSS
-              </li>
-              <li className="flex items-center">
-                <span className="text-green-500 mr-2">✓</span>
-                ESLint Configuration
-              </li>
-              <li className="flex items-center">
-                <span className="text-green-500 mr-2">✓</span>
-                Reusable Components
-              </li>
-              <li className="flex items-center">
-                <span className="text-green-500 mr-2">✓</span>
-                TypeScript Interfaces
-              </li>
-              <li className="flex items-center">
-                <span className="text-green-500 mr-2">✓</span>
-                Project Constants
-              </li>
+              <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Next.js with TypeScript</li>
+              <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Tailwind CSS</li>
+              <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>ESLint Configuration</li>
+              <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Reusable Components</li>
+              <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>TypeScript Interfaces</li>
+              <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Project Constants</li>
             </ul>
             <p className="text-sm text-gray-600">
               Check the README.md file for more details about the project structure and how to run the application.
             </p>
           </section>
+
         </div>
       </div>
     </div>
