@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ALX Listing App
 
 A modern Airbnb clone built with Next.js, TypeScript, and TailwindCSS. This project serves as the foundation for building a dynamic, responsive, and user-friendly property listing application.
@@ -166,3 +167,6 @@ alx-listing-app/
 ├── next.config.js
 ├── package.json
 └── README.md
+=======
+# alx-listing-app
+>>>>>>> 41b59649f808826bf04803c93bbf56c1db37c3c8
